@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 报表产物（含会话标题与工作目录，不要提交）
+usage-reports/
+*.xlsx
+*.xls
+*.csv
+data.json
+index.html
+
+# 本地环境
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 合成账本的产品（可由 assets/demo/make_ledger.py 重新生成，不提交）
+assets/demo/demo-ledger/
+assets/demo/out/
+assets/demo/shots/
+assets/demo/raw-2x.png
